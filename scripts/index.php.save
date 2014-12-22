@@ -1,0 +1,13 @@
+<?php
+/*
+	Plugin Name: jQuery Plugins
+	Description: Includes common scripts including sliders, parallax, and animations
+	Version: 1
+*/
+
+function allFiles()
+{
+	wp_enqueue_script('bootstrap','bootstrap/js/bootstrap.min.js','','3.2',true);
+}
+
+?>
